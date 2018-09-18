@@ -44,7 +44,7 @@
             // navegador1
             // 
             this.navegador1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.navegador1.Location = new System.Drawing.Point(5, 43);
+            this.navegador1.Location = new System.Drawing.Point(5, 33);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(917, 60);
             this.navegador1.TabIndex = 0;
