@@ -28,20 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.navegador1 = new CapaDiseno.Navegador();
             this.SuspendLayout();
+            // 
+            // navegador1
+            // 
+            this.navegador1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.navegador1.Location = new System.Drawing.Point(0, 0);
+            this.navegador1.Name = "navegador1";
+            this.navegador1.Size = new System.Drawing.Size(917, 60);
+            this.navegador1.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(153)))), ((int)(((byte)(183)))));
-            this.ClientSize = new System.Drawing.Size(821, 367);
+            this.ClientSize = new System.Drawing.Size(934, 661);
+            this.Controls.Add(this.navegador1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Bitacora";
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private CapaDiseno.Navegador navegador1;
     }
 }
