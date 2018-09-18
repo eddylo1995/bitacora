@@ -1,6 +1,6 @@
 ﻿namespace bitacora
 {
-    partial class Bitacora
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,32 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.navegadorDiseño1 = new Navegador.navegadorDiseño();
             this.SuspendLayout();
             // 
-            // navegadorDiseño1
-            // 
-            this.navegadorDiseño1.BackColor = System.Drawing.Color.Gainsboro;
-            this.navegadorDiseño1.Location = new System.Drawing.Point(1, -1);
-            this.navegadorDiseño1.Name = "navegadorDiseño1";
-            this.navegadorDiseño1.Size = new System.Drawing.Size(827, 63);
-            this.navegadorDiseño1.TabIndex = 0;
-            // 
-            // Bitacora
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(153)))), ((int)(((byte)(183)))));
-            this.ClientSize = new System.Drawing.Size(934, 661);
-            this.Controls.Add(this.navegadorDiseño1);
-            this.Name = "Bitacora";
-            this.Text = "Bitacora";
+            this.ClientSize = new System.Drawing.Size(821, 367);
+            this.Name = "Form1";
+            this.Text = "Form1";
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private Navegador.navegadorDiseño navegadorDiseño1;
     }
 }

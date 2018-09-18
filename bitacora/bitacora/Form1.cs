@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace bitacora
 {
-    public partial class Bitacora : Form
+    public partial class Form1 : Form
     {
-        public Bitacora()
+        public Form1()
         {
             InitializeComponent();
         }
