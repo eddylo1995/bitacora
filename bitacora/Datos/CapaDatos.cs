@@ -11,21 +11,19 @@ namespace Datos
 {
     public class CapaDatos
     {
-        MySqlConnection conectar = new MySqlConnection("server=127.0.0.1; database=seguridad_db ;Uid=root; pwd= ; ");
-        void conexion()
+        public MySqlConnection conectar()
         {
+            string conexionString = "server=localhost; userid=root; password=''; database=seguridad_bd;Sslmode=none";
+            MySqlConnection conexionDB = new MySqlConnection(conexionString);
             try
             {
-                conectar.Open();
-                MySqlCommand comando = new MySqlCommand("INSERT into bitacora values(?,?)", conectar);
-                comando.ExecuteNonQuery();
-              
-
+                conexionDB.Open();
+                return conexionDB;
             }
-            catch(Exception)
+            catch(Exception ex)
             {
-                conectar.Close();
+                return null;
             }
-        }
+ }
     }
 }
