@@ -8,5 +8,10 @@ namespace Datos
 {
     public class CapaDatos
     {
+        public int insertAccion(string host, string usuario, string accion)
+        {
+            string query = "INSERT INTO VALUES('" + host + "','" + usuario + "','" + accion + "')'";
+            return 1;
+        }
     }
 }
